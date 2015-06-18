@@ -36,6 +36,7 @@
 		AF23D80919DCB73A0049AD5E /* nose_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF23D7F819DCB73A0049AD5E /* nose_3.jpg */; };
 		AF23D80A19DCB73A0049AD5E /* nose_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF23D7F919DCB73A0049AD5E /* nose_4.jpg */; };
 		AF23D80B19DCB73A0049AD5E /* nose_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF23D7FA19DCB73A0049AD5E /* nose_5.jpg */; };
+		B633644C1B2F408F000DFBD1 /* BodyPartData.m in Sources */ = {isa = PBXBuildFile; fileRef = B633644B1B2F408F000DFBD1 /* BodyPartData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +61,6 @@
 		60D60720197C369000A4DE1D /* LPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSAppDelegate.h; sourceTree = "<group>"; };
 		60D60721197C369000A4DE1D /* LPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPSAppDelegate.m; sourceTree = "<group>"; };
 		60D60724197C369000A4DE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		60D60726197C369000A4DE1D /* LPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSViewController.h; sourceTree = "<group>"; };
 		60D60727197C369000A4DE1D /* LPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPSViewController.m; sourceTree = "<group>"; };
 		60D60729197C369000A4DE1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60D6072F197C369000A4DE1D /* PoliceSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliceSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +82,9 @@
 		AF23D7F819DCB73A0049AD5E /* nose_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nose_3.jpg; sourceTree = "<group>"; };
 		AF23D7F919DCB73A0049AD5E /* nose_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nose_4.jpg; sourceTree = "<group>"; };
 		AF23D7FA19DCB73A0049AD5E /* nose_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nose_5.jpg; sourceTree = "<group>"; };
+		B63364491B2F3FED000DFBD1 /* LPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LPSViewController.h; path = ../../../.Trash/LPSViewController.h; sourceTree = "<group>"; };
+		B633644A1B2F408F000DFBD1 /* BodyPartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyPartData.h; sourceTree = "<group>"; };
+		B633644B1B2F408F000DFBD1 /* BodyPartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyPartData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +147,10 @@
 				60D60720197C369000A4DE1D /* LPSAppDelegate.h */,
 				60D60721197C369000A4DE1D /* LPSAppDelegate.m */,
 				60D60723197C369000A4DE1D /* Main.storyboard */,
-				60D60726197C369000A4DE1D /* LPSViewController.h */,
+				B63364491B2F3FED000DFBD1 /* LPSViewController.h */,
 				60D60727197C369000A4DE1D /* LPSViewController.m */,
+				B633644A1B2F408F000DFBD1 /* BodyPartData.h */,
+				B633644B1B2F408F000DFBD1 /* BodyPartData.m */,
 				60D60729197C369000A4DE1D /* Images.xcassets */,
 				60D60718197C369000A4DE1D /* Supporting Files */,
 			);
@@ -301,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B633644C1B2F408F000DFBD1 /* BodyPartData.m in Sources */,
 				60D60722197C369000A4DE1D /* LPSAppDelegate.m in Sources */,
 				60D6071E197C369000A4DE1D /* main.m in Sources */,
 				60D60728197C369000A4DE1D /* LPSViewController.m in Sources */,

@@ -10,4 +10,11 @@
 
 @interface BodyPartData : NSObject
 
+
+-(void) nextBodyPart;
+-(void) previousBodyPart;
+-(UIImage *)currentBodyPart;
+
+
+- (instancetype)initWithPartName:(NSString *)bodyPartName;
 @end
